@@ -1,0 +1,163 @@
+body {
+	font-family: "Verdana", Helvetica;
+	background: hsl(200, 80%, 35%);
+	text-align: center;
+	margin: 0;
+	padding: 0 10px;
+}
+
+h1 {
+	font-size: 35px;
+	letter-spacing: 4px;
+	color: #e0e0e0;
+	margin: 30px 0;
+}
+
+#container-form {
+	background: #e0e0e0;
+	max-width: 700px;
+	margin: 0 auto 30px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.7);
+	padding: 15px;
+}
+
+fieldset {
+	max-width: 600px;
+	margin: 0 auto 30px;
+	padding-right: 30px;
+}
+
+legend {
+	margin: auto;
+	font-size: 14px;
+}
+
+fieldset input[type="text"],
+fieldset input[type="email"],
+fieldset input[type="number"],
+fieldset input[type="submit"] {
+	min-width: 100%;
+	padding: 5px 10px;
+	font-size: 18px;
+	margin: 10px 0;
+	border-radius: 20px;
+	border: 0;
+}
+
+textarea[placeholder],
+input[placeholder] {
+	text-align: left;
+	font-size: 15px;
+}
+
+fieldset input[type="submit"] {
+	min-width: 150px;
+	background: #fff;
+	border: 1px solid black;
+	border-radius: 20px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+fieldset input[type="submit"]:hover {
+	background: hsl(200, 80%, 35%);
+	color: #e0e0e0;
+	transition: all .3s;
+	cursor: pointer;
+}
+
+#name-label,
+#number-label,
+#email-label,
+.drop-menu {
+	font-weight: bold;
+	float: left;
+}
+
+fieldset select {
+	min-width: 103%;
+	padding: 5px 10px;
+	font-size: 18px;
+	margin: 10px 0;
+	border-radius: 20px 0 0;
+	border: 0;
+}
+
+legend span,
+label span {
+	color: #ff0000;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.radio,
+.checkbox,
+.textarea {
+	text-align: left;
+	font-weight: bold;
+	padding: 15px 0;
+}
+
+.row-right,
+.row-left {
+	float: left;
+	padding: 10px;
+}
+
+.row-right label,
+.row-left input[type="radio"],
+.row-left input[type="checkbox"] {
+	cursor: pointer;
+}
+
+fieldset textarea {
+	width: 100%;
+	resize: vertical;
+	padding: 10px;
+	border: 0;
+	border-radius: 20px;
+}
+
+fieldset input:focus,
+fieldset select:focus,
+fieldset textarea:focus {
+	background: hsl(200, 80%, 95%);
+	border: 0;
+	box-shadow: 0px 0px 7px 0px hsl(200, 80%, 45%);
+	transition: all .4s;
+}
+
+div#freepik {
+	font-size: 10px;
+}
+
+/* mediaqueries */
+
+@media screen and (max-width:600px) {
+
+	.row-left {
+		min-width: 46%;
+	}
+	.row-right {
+		max-width: 54%;
+	}
+	.row-left input[type="radio"],
+	.row-left input[type="checkbox"] {
+		margin-right: -130px;
+	}
+}
+
+@media screen and (max-width:420px) {
+
+	.row-left {
+		min-width: 31%;
+	}
+	.row-right {
+		max-width: 69%;
+	}
+	.row-left input[type="radio"],
+	.row-left input[type="checkbox"] {
+		margin-right: -100px
+	}
+}
