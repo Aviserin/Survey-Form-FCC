@@ -48,8 +48,6 @@ fieldset input[type="submit"]{
 
 textarea[placeholder],
 input[placeholder] {
-	text-align: left;
-	font-size: 15px;
 	font-family: "Verdana", Helvetica;
 }
 
@@ -80,7 +78,7 @@ fieldset input[type="submit"]:hover {
 fieldset select {
 	min-width: 103%;
 	padding: 5px 10px;
-	font-size: 18px;
+	font-size: 15px;
 	margin: 10px 0;
 	border-radius: 20px 0 0;
 	border: 0;
@@ -119,6 +117,7 @@ fieldset textarea {
 	padding: 10px;
 	border: 0;
 	border-radius: 20px;
+	font-size: 15px;
 }
 
 fieldset input:focus,
