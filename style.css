@@ -34,10 +34,10 @@ legend {
 	font-size: 14px;
 }
 
-fieldset input[type="text"], 
+fieldset input[type="text"],
 fieldset input[type="email"],
 fieldset input[type="number"],
-fieldset input[type="submit"]{
+fieldset input[type="submit"] {
 	min-width: 100%;
 	padding: 5px 10px;
 	font-size: 15px;
@@ -128,20 +128,35 @@ fieldset textarea:focus {
 	box-shadow: 0px 0px 7px 0px hsl(200, 80%, 45%);
 	transition: all .4s;
 }
+
 div#freepik {
 	font-size: 10px;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.social img {
+	width: 32px;
+	height: 32px;
+	margin-right: 5px;
 }
 
 /* mediaqueries */
 
 @media screen and (max-width:600px) {
-	
+
 	.row-left {
 		min-width: 46%;
 	}
+
 	.row-right {
 		max-width: 54%;
 	}
+
 	.row-left input[type="radio"],
 	.row-left input[type="checkbox"] {
 		margin-right: -130px;
@@ -149,13 +164,15 @@ div#freepik {
 }
 
 @media screen and (max-width:420px) {
-	
+
 	.row-left {
 		min-width: 31%;
 	}
+
 	.row-right {
 		max-width: 69%;
 	}
+
 	.row-left input[type="radio"],
 	.row-left input[type="checkbox"] {
 		margin-right: -100px
